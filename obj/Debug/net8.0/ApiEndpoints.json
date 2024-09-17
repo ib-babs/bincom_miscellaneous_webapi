@@ -1,0 +1,186 @@
+[
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.CVController",
+    "Method": "GetCV",
+    "RelativePath": "api/CV",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MiscellaneousApi.Models.CVItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.ConsoleController",
+    "Method": "HelloWorld",
+    "RelativePath": "api/HelloWorld",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.ImageIntfoItemsController",
+    "Method": "GetImageInfoItems",
+    "RelativePath": "api/imageinfo/ImageIntfoItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MiscellaneousApi.Models.ImageInfoItem, MiscellaneousApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.ImageIntfoItemsController",
+    "Method": "PostImageInfoItem",
+    "RelativePath": "api/imageinfo/ImageIntfoItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imgInfo",
+        "Type": "MiscellaneousApi.Models.ImageInfoItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiscellaneousApi.Models.ImageInfoItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.ImageIntfoItemsController",
+    "Method": "GetImageInfoItem",
+    "RelativePath": "api/imageinfo/ImageIntfoItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiscellaneousApi.Models.ImageInfoItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.TaxCalculatorController",
+    "Method": "GetTaxItems",
+    "RelativePath": "api/tax/TaxCalculator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MiscellaneousApi.Models.TaxCalculatorItem, MiscellaneousApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.TaxCalculatorController",
+    "Method": "PostTaxItem",
+    "RelativePath": "api/tax/TaxCalculator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taxCalcDTO",
+        "Type": "MiscellaneousApi.Models.TaxCalculatorItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiscellaneousApi.Models.TaxCalculatorItemDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiscellaneousApi.Controllers.TaxCalculatorController",
+    "Method": "GetTaxItem",
+    "RelativePath": "api/tax/TaxCalculator/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiscellaneousApi.Models.TaxCalculatorItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
